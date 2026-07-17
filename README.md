@@ -1,8 +1,8 @@
 <div align="center">
 
-# Luka Homepage
+# Yan Zihao Homepage
 
-### A warm, minimal, responsive homepage template for researchers, students, builders, and creators.
+### A minimal personal academic homepage based on the Luka Homepage template.
 
 [中文说明](README.zh-CN.md) · [Live Demo](https://wzsyyh.github.io/luka-homepage-template/) · [Use This Template](https://github.com/wzsyyh/luka-homepage-template/generate)
 
@@ -13,7 +13,7 @@
 
 </div>
 
-`Luka Homepage` is a standalone template version extracted from my own personal homepage. It is designed to feel warm, clean, and academic without adding any build tooling or framework overhead.
+This repository contains Yan Zihao's personal homepage. It is a standalone static site that can be deployed directly to GitHub Pages without build tooling.
 
 ## Why This Template
 
@@ -51,15 +51,15 @@ You will mainly edit:
 
 - `index.html` for all main content
 - `assets/css/theme-luka.css` for colors, spacing, and layout
-- `assets/img/avatar.svg` for the profile image
-- `assets/img/institution.svg` for school or lab branding
+- `assets/img/avatar.png` for the profile image
+- `assets/img/institution.jpg` for school branding
 
 ### 3. Replace your assets
 
-- Avatar: replace `assets/img/avatar.svg` with your own `png`, `jpg`, or `svg`
-- Institution logo: replace `assets/img/institution.svg`
+- Avatar: `assets/img/avatar.png`
+- Institution logo: `assets/img/institution.jpg`
 - Favicon: replace `assets/img/favicon.svg`
-- Resume: update the `Download my CV` link in `index.html`
+- Resume: add a file under `assets/cv/` and link it from `index.html` if needed
 
 ### 4. Deploy to GitHub Pages
 

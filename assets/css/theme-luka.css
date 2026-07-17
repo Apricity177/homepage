@@ -168,14 +168,15 @@ body.theme-luka .profile-card {
 
 body.theme-luka .image.avatar {
   display: block;
-  margin: 0 auto 28px;
+  margin: 0 auto 24px;
 }
 
 body.theme-luka .image.avatar img {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
+  width: 180px;
+  height: 230px;
+  border-radius: 14px;
   object-fit: cover;
+  object-position: center 22%;
   box-shadow: 0 6px 24px var(--luka-shadow);
 }
 
@@ -326,6 +327,9 @@ body.theme-luka .institution-logo {
   width: 52px;
   height: 52px;
   flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #fff;
 }
 
 body.theme-luka .experience-content {
@@ -353,8 +357,13 @@ body.theme-luka .exp-period {
 }
 
 body.theme-luka .project-card {
+  margin-bottom: 12px;
   font-size: 15px;
   line-height: 1.7;
+}
+
+body.theme-luka .project-card:last-child {
+  margin-bottom: 0;
 }
 
 body.theme-luka .publications ol.bibliography {
@@ -485,8 +494,8 @@ body.theme-luka strong {
 
 @media (max-width: 640px) {
   body.theme-luka .image.avatar img {
-    width: 148px;
-    height: 148px;
+    width: 140px;
+    height: 180px;
   }
 
   body.theme-luka .site-name {

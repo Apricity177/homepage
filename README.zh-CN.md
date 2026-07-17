@@ -1,8 +1,8 @@
 <div align="center">
 
-# Luka Homepage
+# Yan Zihao Homepage
 
-### 一个温暖、极简、响应式的个人主页模板，适合研究者、学生、开发者和创作者。
+### 基于 Luka Homepage 模板修改的极简个人学术主页。
 
 [English README](README.md) · [在线预览](https://wzsyyh.github.io/luka-homepage-template/) · [使用此模板](https://github.com/wzsyyh/luka-homepage-template/generate)
 
@@ -13,7 +13,7 @@
 
 </div>
 
-`Luka Homepage` 是从我自己的个人主页中抽离出来的一个独立模板版本。它追求温暖、克制、学术友好的视觉风格，同时保持纯静态、零构建、易部署。
+这个仓库是 Yan Zihao 的个人主页。页面保持纯静态，可以直接部署到 GitHub Pages，不需要构建工具。
 
 ## 为什么用它
 
@@ -51,15 +51,15 @@
 
 - `index.html`：页面结构与主要内容
 - `assets/css/theme-luka.css`：颜色、间距和布局
-- `assets/img/avatar.svg`：头像占位图
-- `assets/img/institution.svg`：机构 Logo 占位图
+- `assets/img/avatar.png`：个人照片
+- `assets/img/institution.jpg`：学校校徽
 
 ### 3. 替换资源
 
-- 头像：替换 `assets/img/avatar.svg`
-- 机构 Logo：替换 `assets/img/institution.svg`
+- 头像：`assets/img/avatar.png`
+- 机构 Logo：`assets/img/institution.jpg`
 - favicon：替换 `assets/img/favicon.svg`
-- 简历：修改 `index.html` 中的 `Download my CV` 链接
+- 简历：如需添加，可以放入 `assets/cv/` 并在 `index.html` 中链接
 
 ### 4. 部署到 GitHub Pages
 
