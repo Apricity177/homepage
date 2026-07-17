@@ -339,6 +339,12 @@ body.theme-luka .institution-logo {
   background: #fff;
 }
 
+body.theme-luka .company-logo {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid var(--luka-border);
+}
+
 body.theme-luka .experience-content {
   flex: 1;
 }
@@ -473,12 +479,6 @@ body.theme-luka .site-footer p {
   border-top: 1px solid var(--luka-footer-border);
   color: var(--luka-secondary);
   font-size: 13px;
-}
-
-body.theme-luka .template-credit {
-  display: inline-block;
-  margin-top: 8px;
-  font-size: 12px;
 }
 
 body.theme-luka h1,
