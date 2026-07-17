@@ -187,6 +187,13 @@ body.theme-luka .site-name {
   line-height: 1.2;
 }
 
+body.theme-luka .site-subtitle {
+  margin: -2px 0 8px;
+  color: var(--luka-accent);
+  font-size: 14px;
+  font-weight: 600;
+}
+
 body.theme-luka .site-email {
   margin: 0 0 24px;
   color: var(--luka-secondary);
@@ -364,6 +371,34 @@ body.theme-luka .project-card {
 
 body.theme-luka .project-card:last-child {
   margin-bottom: 0;
+}
+
+body.theme-luka .skill-grid {
+  display: grid;
+  gap: 12px;
+}
+
+body.theme-luka .skill-card {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  border: 1px solid var(--luka-border);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+[data-theme="dark"] body.theme-luka .skill-card {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+body.theme-luka .skill-card strong {
+  font-size: 15px;
+}
+
+body.theme-luka .skill-card span {
+  color: var(--luka-secondary);
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 body.theme-luka .publications ol.bibliography {

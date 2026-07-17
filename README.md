@@ -53,13 +53,15 @@ You will mainly edit:
 - `assets/css/theme-luka.css` for colors, spacing, and layout
 - `assets/img/avatar.png` for the profile image
 - `assets/img/institution.jpg` for school branding
+- `assets/cv/Yan_Zihao_CV.pdf` for the linked CV
 
 ### 3. Replace your assets
 
 - Avatar: `assets/img/avatar.png`
 - Institution logo: `assets/img/institution.jpg`
 - Favicon: replace `assets/img/favicon.svg`
-- Resume: add a file under `assets/cv/` and link it from `index.html` if needed
+- Resume: `assets/cv/Yan_Zihao_CV.pdf`
+- GitHub: `https://github.com/Apricity177`
 
 ### 4. Deploy to GitHub Pages
 

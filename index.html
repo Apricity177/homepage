@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yan Zihao - Homepage</title>
-  <meta name="description" content="Yan Zihao's personal academic homepage.">
-  <meta name="keywords" content="Yan Zihao, SUSTech, personal homepage, student, computer science, artificial intelligence">
+  <title>晏梓豪 | Yan Zihao</title>
+  <meta name="description" content="晏梓豪的个人主页，关注大模型算法、Agent、模型微调与软件系统。">
+  <meta name="keywords" content="晏梓豪, Yan Zihao, SUSTech, 南方科技大学, AI Agent, LLM, Diffusion, personal homepage">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,7 @@
   <nav class="top-nav">
     <div class="nav-container">
       <div class="nav-left">
-        <a href="./">Home</a>
+        <a href="./">Yan Zihao</a>
       </div>
       <div class="nav-right">
         <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
@@ -40,36 +40,43 @@
           <img src="assets/img/avatar.png" alt="Portrait of Yan Zihao">
         </a>
 
-        <h1 class="site-name">Yan Zihao</h1>
+        <h1 class="site-name">晏梓豪</h1>
+        <p class="site-subtitle">Yan Zihao</p>
         <p class="site-email">12313629@mail.sustech.edu.cn</p>
 
         <div class="social-icons">
           <a href="mailto:12313629@mail.sustech.edu.cn" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/Apricity177" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
           <a href="https://www.sustech.edu.cn/" title="SUSTech" target="_blank" rel="noopener"><i class="fa-solid fa-building-columns"></i></a>
+          <a href="assets/cv/Yan_Zihao_CV.pdf" title="CV" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines"></i></a>
         </div>
       </div>
     </header>
 
     <section class="content">
       <div class="section" id="about">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">关于我</h2>
         <div class="section-body">
-          <p>Hello! I am <strong>Yan Zihao</strong>, an undergraduate student at <strong>Southern University of Science and Technology</strong>.</p>
-          <p>I am interested in computer science, artificial intelligence, and software systems. I enjoy learning rigorous foundations and turning ideas into small, practical projects.</p>
+          <p>你好，我是 <strong>晏梓豪</strong>，南方科技大学计算机科学与技术本科在读。</p>
+          <p>我关注 <strong>大模型算法、模型微调、AI Agent 与软件系统</strong>，近期项目集中在 Agent 工作流、RAG、LLM 自动化程序修复、教育场景大模型以及扩散模型推理加速等方向。</p>
+          <p><strong><a href="assets/cv/Yan_Zihao_CV.pdf" target="_blank" rel="noopener">Download CV</a></strong> · <strong><a href="https://github.com/Apricity177" target="_blank" rel="noopener">GitHub</a></strong></p>
         </div>
       </div>
 
       <div class="section" id="education">
-        <h2 class="section-title">Education</h2>
+        <h2 class="section-title">教育经历</h2>
         <div class="section-body">
           <div class="card">
             <div class="experience-item">
               <img src="assets/img/institution.jpg" alt="Southern University of Science and Technology logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Southern University of Science and Technology</strong></p>
-                <p class="exp-detail">Undergraduate Student</p>
-                <p class="exp-detail">Interests: Computer Science, Artificial Intelligence, Software Systems</p>
-                <p class="exp-period">Shenzhen, China</p>
+                <p class="exp-title"><strong>南方科技大学（SUSTech）</strong></p>
+                <p class="exp-detail">本科在读，计算机科学与技术</p>
+                <p class="exp-detail">GPA：3.81 / 4.0（专业前 25%）</p>
+                <p class="exp-detail">核心课程：数据挖掘、自然语言处理、算法设计与分析、数据结构与算法分析、人工智能</p>
+                <p class="exp-detail">荣誉奖励：校级一等奖学金、优秀学生、优秀学生干部</p>
+                <p class="exp-detail">语言：CET-6 509，CET-4 526</p>
+                <p class="exp-period">2023.09 - 2027.07 · 深圳</p>
               </div>
             </div>
           </div>
@@ -77,15 +84,16 @@
       </div>
 
       <div class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
+        <h2 class="section-title">科研与项目经历</h2>
         <div class="section-body">
           <div class="card timeline-item">
             <div class="experience-item">
               <img src="assets/img/institution.jpg" alt="Southern University of Science and Technology logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Academic Exploration</strong></p>
-                <p class="exp-detail">Studying core topics in computing and exploring AI-related applications.</p>
-                <p class="exp-period">Ongoing</p>
+                <p class="exp-title"><strong>扩散模型推理加速研究（Diffusion Cache）</strong></p>
+                <p class="exp-detail">访问学生，生成式 AI 与多模态方向。研究扩散模型推理过程中的时间冗余，尝试通过特征缓存与缓存校正提升推理效率。</p>
+                <p class="exp-detail">参与多模态特征缓存机制设计，并探索显存管理与异步生成策略。</p>
+                <p class="exp-period">2026.03 - 至今</p>
               </div>
             </div>
           </div>
@@ -94,34 +102,76 @@
             <div class="experience-item">
               <img src="assets/img/institution.jpg" alt="Southern University of Science and Technology logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Software Practice</strong></p>
-                <p class="exp-detail">Building clean, useful web pages and small software tools through hands-on practice.</p>
-                <p class="exp-period">Ongoing</p>
+                <p class="exp-title"><strong>SUSTech 学生生产力自动化 Agent</strong></p>
+                <p class="exp-detail">核心开发者，负责多源日程、通知、课程与文件信息的聚合 Agent Loop 设计和核心控制逻辑。</p>
+                <p class="exp-detail">参与 Agent Gateway、RAG 校园手册问答、工具调用、记忆机制与 Human-in-the-Loop 反馈设计。</p>
+                <p class="exp-period">2026.03 - 至今</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card timeline-item">
+            <div class="experience-item">
+              <img src="assets/img/institution.jpg" alt="Southern University of Science and Technology logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>EduCopilot：面向教育场景的逻辑增强大模型</strong></p>
+                <p class="exp-detail">核心开发者。基于 Hybrid Strategy 合成高质量指令微调样本，并使用 DeepSeek-V3 构建 CoT 推理能力数据集。</p>
+                <p class="exp-detail">使用 Unsloth、QLoRA 完成两阶段微调（SFT + DPO），面向教育场景提升模型逻辑推理表现。</p>
+                <p class="exp-period">2025.11 - 2026.01</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card timeline-item">
+            <div class="experience-item">
+              <img src="assets/img/institution.jpg" alt="Southern University of Science and Technology logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>基于 LLM 的自动化程序修复 Agent（APR）</strong></p>
+                <p class="exp-detail">课题组成员。构建 AutoGen 工作流，集成 LLM 与运行时环境，实现 Java / Python / C 代码调试、复现、定位与修复。</p>
+                <p class="exp-detail">设计 Reproduce-before-Repair 流程，利用上下文迭代补全降低模型幻觉并提升修复成功率。</p>
+                <p class="exp-period">2025.07 - 2026.01</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card timeline-item">
+            <div class="experience-item">
+              <img src="assets/img/institution.jpg" alt="Southern University of Science and Technology logo" class="institution-logo">
+              <div class="experience-content">
+                <p class="exp-title"><strong>TCL 智能空间自适应编解码算法</strong></p>
+                <p class="exp-detail">校企合作项目核心开发者。训练多层感知机模型，融合环境传感器数据与用户行为，实现精细的用电需求预测。</p>
+                <p class="exp-period">2025.06 - 2025.07</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="section" id="projects">
-        <h2 class="section-title">Interests</h2>
+      <div class="section" id="skills">
+        <h2 class="section-title">技术技能</h2>
         <div class="section-body">
-          <div class="card project-card">
-            <strong>Artificial Intelligence</strong>: machine learning, intelligent systems, and practical AI applications.
-          </div>
-          <div class="card project-card">
-            <strong>Software Engineering</strong>: readable interfaces, reliable tools, and web development.
-          </div>
-          <div class="card project-card">
-            <strong>Human-Centered Computing</strong>: technology that is clear, useful, and thoughtfully designed.
+          <div class="skill-grid">
+            <div class="skill-card">
+              <strong>生成式 AI</strong>
+              <span>大模型微调（SFT / DPO）、AI Agent 架构设计、检索增强生成（RAG）、扩散模型</span>
+            </div>
+            <div class="skill-card">
+              <strong>框架工具</strong>
+              <span>PyTorch、HuggingFace、PydanticAI / LangChain、Unsloth、Git、Docker</span>
+            </div>
+            <div class="skill-card">
+              <strong>性能优化</strong>
+              <span>LoRA / QLoRA、KV-Cache 优化、Diffusion 特征缓存、模型量化</span>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="section" id="contact">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">联系方式</h2>
         <div class="section-body">
           <p>Email: <a href="mailto:12313629@mail.sustech.edu.cn">12313629@mail.sustech.edu.cn</a></p>
+          <p>GitHub: <a href="https://github.com/Apricity177" target="_blank" rel="noopener">github.com/Apricity177</a></p>
         </div>
       </div>
     </section>

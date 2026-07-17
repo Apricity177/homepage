@@ -53,13 +53,15 @@
 - `assets/css/theme-luka.css`：颜色、间距和布局
 - `assets/img/avatar.png`：个人照片
 - `assets/img/institution.jpg`：学校校徽
+- `assets/cv/Yan_Zihao_CV.pdf`：页面链接的简历文件
 
 ### 3. 替换资源
 
 - 头像：`assets/img/avatar.png`
 - 机构 Logo：`assets/img/institution.jpg`
 - favicon：替换 `assets/img/favicon.svg`
-- 简历：如需添加，可以放入 `assets/cv/` 并在 `index.html` 中链接
+- 简历：`assets/cv/Yan_Zihao_CV.pdf`
+- GitHub：`https://github.com/Apricity177`
 
 ### 4. 部署到 GitHub Pages
 
